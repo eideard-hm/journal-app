@@ -1,7 +1,12 @@
+import AppRouter from "./router/AppRouter";
+import { AppTheme } from "./theme";
+
 const App = () => {
   return (
-    <div>Hello world</div>
-  )
-}
+    <AppTheme>
+      <AppRouter />
+    </AppTheme>
+  );
+};
 
-export default App
+export default App;
